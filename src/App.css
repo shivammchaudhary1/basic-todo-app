@@ -1,0 +1,49 @@
+.Heading {
+  width: 100%;
+  background-color: #5e00b8;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+.inputbox {
+  width: 40%;
+
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+}
+.addbtn {
+  background-color: #5e00b8;
+  color: white;
+  border: none;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.todoitem {
+  border: 1px solid black;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+.p {
+  color: #5e00b8;
+}
